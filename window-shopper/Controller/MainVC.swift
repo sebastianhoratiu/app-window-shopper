@@ -35,11 +35,6 @@ class MainVC: UIViewController {
         
         resultLbl.isHidden = true
         hoursLbl.isHidden = true
-        
-//        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
-//        navigationController?.navigationBar.
-//        navigationController?.navigationBar.titleTextAttributes = [foregroundcolor : UIColor.white]
-//        navigationController?.navigationBar.titleTextAttributes = [foregroundColor: UIColor.white]
 
     }
     
