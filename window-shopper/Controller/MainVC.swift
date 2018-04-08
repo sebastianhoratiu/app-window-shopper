@@ -9,6 +9,10 @@
 import UIKit
 
 class MainVC: UIViewController {
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return UIStatusBarStyle.lightContent
+    }
 
     @IBOutlet weak var wageTxt: CurrencyTextField!
     @IBOutlet weak var priceTxt: CurrencyTextField!
@@ -31,6 +35,12 @@ class MainVC: UIViewController {
         
         resultLbl.isHidden = true
         hoursLbl.isHidden = true
+        
+//        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+//        navigationController?.navigationBar.
+//        navigationController?.navigationBar.titleTextAttributes = [foregroundcolor : UIColor.white]
+//        navigationController?.navigationBar.titleTextAttributes = [foregroundColor: UIColor.white]
+
     }
     
     @objc func calculate() {
